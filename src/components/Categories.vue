@@ -4,9 +4,7 @@
             <div class="sm:col-span-2 md:grow">
                 <div class="flex justify-end gap-x-2">
                     <div class="relative inline-block">
-                        <button type="button" @click="openModal" class="btn">
-                            Add Category
-                        </button>
+                        <AddCategory />
                     </div>
                 </div>
             </div>
@@ -35,9 +33,10 @@
                         <p class="text-sm font-medium text-gray-900">{{ product.price }}</p>
                     </div>
                     <div class="mt-8">
-                        <button type="button" class="absolute bottom-2 end-2 float-end">
-                            <i class="fa-solid fa-pen-to-square" style="color: #9288F8"></i>
-                        </button>
+                        <!-- <button type="button" class="">
+                            <i class="fa-solid fa-pen-to-square"></i>
+                        </button> -->
+                        <EditCategory />
                     </div>
                 </div>
             </div>
@@ -46,6 +45,9 @@
 </template>
   
 <script setup>
+import AddCategory from '../dialogs/AddCategory.vue';
+import EditCategory from '../dialogs/EditCategory.vue';
+
 const products = [
     {
         id: 1,
