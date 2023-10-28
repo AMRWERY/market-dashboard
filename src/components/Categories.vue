@@ -33,9 +33,6 @@
                         <p class="text-sm font-medium text-gray-900">{{ product.price }}</p>
                     </div>
                     <div class="mt-8">
-                        <!-- <button type="button" class="">
-                            <i class="fa-solid fa-pen-to-square"></i>
-                        </button> -->
                         <EditCategory />
                     </div>
                 </div>
