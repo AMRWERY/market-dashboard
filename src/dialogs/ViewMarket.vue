@@ -18,7 +18,7 @@
                         <DialogPanel class="panel">
                             <div class="flex items-start justify-between p-4 rounded-t dark:border-gray-600">
                                 <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
-                                    View Market
+                                    عرض المتجر
                                 </h3>
                                 <button type="button" @click="closeModal"
                                     class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white">
@@ -40,8 +40,8 @@
                                         <div class="mt-5 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                                             <div class="sm:col-span-3">
                                                 <label for="going-from"
-                                                    class="block text-sm font-medium leading-6 text-gray-900">Market
-                                                    Name</label>
+                                                    class="block text-sm font-medium leading-6 text-gray-900">اسم
+                                                    المتجر</label>
                                                 <div class="mt-2">
                                                     <div
                                                         class="rounded-lg border border-gray-300 shadow-sm bg-slate-300 text-black py-1.5">
@@ -51,8 +51,8 @@
                                             </div>
                                             <div class="sm:col-span-3">
                                                 <label for="arrival-in"
-                                                    class="block text-sm font-medium leading-6 text-gray-900">Market
-                                                    Number</label>
+                                                    class="block text-sm font-medium leading-6 text-gray-900">رقم
+                                                    المتحر</label>
                                                 <div class="mt-2">
                                                     <div
                                                         class="rounded-lg border border-gray-300 shadow-sm bg-slate-300 text-black py-1.5">
@@ -66,7 +66,7 @@
 
                                 <div class="flex items-center p-6 space-x-2 rounded-b dark:border-gray-600">
                                     <button @click="closeModal" type="button" class="btn ml-auto">
-                                        Close</button>
+                                        غلق</button>
                                 </div>
                             </div>
                         </DialogPanel>

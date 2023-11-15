@@ -80,7 +80,7 @@
                         class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                         <i
                             class="fa-solid fa-shop w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"></i>
-                        <span class="ml-3">Markets</span>
+                        <span class="ml-3">متاجر</span>
                     </router-link>
                 </li>
                 <li>
@@ -88,7 +88,7 @@
                         class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                         <i
                             class="fa-solid fa-users flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"></i>
-                        <span class="flex-1 ml-3 whitespace-nowrap">Admins</span>
+                        <span class="flex-1 ml-3 whitespace-nowrap">مشرفين</span>
                     </router-link>
                 </li>
                 <li>
@@ -96,7 +96,7 @@
                         class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                         <i
                             class="fa-regular fa-credit-card flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"></i>
-                        <span class="flex-1 ml-3 whitespace-nowrap">Payments</span>
+                        <span class="flex-1 ml-3 whitespace-nowrap">المدفوعات</span>
                     </router-link>
                 </li>
                 <li>
@@ -104,7 +104,7 @@
                         class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                         <i
                             class="fa-solid fa-table-cells-large flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"></i>
-                        <span class="flex-1 ml-3 whitespace-nowrap">Categories</span>
+                        <span class="flex-1 ml-3 whitespace-nowrap">فئات</span>
                     </router-link>
                 </li>
             </ul>

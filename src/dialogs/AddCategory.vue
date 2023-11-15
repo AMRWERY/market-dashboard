@@ -1,6 +1,6 @@
 <template>
     <button type="button" @click="openModal" class="btn">
-        Add Category
+        إضافة فئة
     </button>
 
     <TransitionRoot appear :show="isOpen" as="template">
@@ -18,7 +18,7 @@
                         <DialogPanel class="panel">
                             <div class="flex items-start justify-between p-4 rounded-t dark:border-gray-600">
                                 <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
-                                    Add Category
+                                    إضافة فئة
                                 </h3>
                                 <button type="button" @click="closeModal"
                                     class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white">
@@ -39,13 +39,13 @@
                                                 <div class="mt-4 flex text-sm leading-6 text-gray-600">
                                                     <label for="file-upload"
                                                         class="relative cursor-pointer rounded-md bg-white font-semibold text-indigo-600 focus-within:outline-none focus-within:ring-2 focus-within:ring-indigo-600 focus-within:ring-offset-2 hover:text-indigo-500">
-                                                        <span>Upload a file</span>
+                                                        <span>تحميل ملف</span>
                                                         <input id="file-upload" name="file-upload" type="file"
                                                             class="sr-only" />
                                                     </label>
-                                                    <p class="pl-1">or drag and drop</p>
+                                                    <p class="pl-1">أو السحب والإفلات</p>
                                                 </div>
-                                                <p class="text-xs leading-5 text-gray-600">PNG, JPG, GIF up to 10MB</p>
+                                                <p class="text-xs leading-5 text-gray-600">PNG، JPG، GIF حتى 10 ميجابايت</p>
                                             </div>
                                         </div>
                                     </div>
@@ -54,8 +54,8 @@
                                         <div class="mt-5 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                                             <div class="col-span-full">
                                                 <label for="going-from"
-                                                    class="block text-sm font-medium leading-6 text-gray-900">Category
-                                                    title</label>
+                                                    class="block text-sm font-medium leading-6 text-gray-900">اسم
+                                                    الفئه</label>
                                                 <div class="mt-2">
                                                     <input type="text" name="first-name" id="first-name"
                                                         autocomplete="given-name"
@@ -66,7 +66,7 @@
                                     </div>
 
                                     <div class="flex mt-4 items-center p-6 space-x-2 rounded-b dark:border-gray-600">
-                                        <button type="button" class="btn ml-auto" @click="closeModal">Add</button>
+                                        <button type="button" class="btn ml-auto" @click="closeModal">اضافه</button>
                                     </div>
                                 </form>
                             </div>

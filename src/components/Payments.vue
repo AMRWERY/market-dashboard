@@ -16,7 +16,7 @@
                     <button id="dropdownActionButton" data-dropdown-toggle="dropdownAction"
                         class="inline-flex items-center text-gray-500 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-3 py-1.5 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
                         type="button">
-                        Filter
+                        منقي
                         <i class="fa-solid fa-chevron-down w-2.5 h-2.5 ml-2.5"></i>
                     </button>
                     <!-- Dropdown menu -->
@@ -59,13 +59,13 @@
                             </div>
                         </th>
                         <th scope="col" class="px-6 py-3">
-                            Code
+                            شفرة
                         </th>
                         <!-- <th scope="col" class="px-6 py-3">
               Position
             </th> -->
                         <th scope="col" class="px-6 py-3">
-                            Expiry
+                            انقضاء
                         </th>
                     </tr>
                 </thead>

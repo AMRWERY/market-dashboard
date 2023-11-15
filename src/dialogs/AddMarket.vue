@@ -1,6 +1,6 @@
 <template>
     <button type="button" @click="openModal" class="btn">
-        Add Market
+        اضافه متجر
     </button>
 
     <TransitionRoot appear :show="isOpen" as="template">
@@ -18,7 +18,7 @@
                         <DialogPanel class="panel">
                             <div class="flex items-start justify-between p-4 rounded-t dark:border-gray-600">
                                 <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
-                                    Add Market
+                                    اضافه متجر
                                 </h3>
                                 <button type="button" @click="closeModal"
                                     class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white">
@@ -77,7 +77,7 @@
 
                                     <div
                                         class="flex items-center p-6 space-x-2 border-gray-200 rounded-b dark:border-gray-600">
-                                        <button type="button" class="btn mt-4 ml-auto" @click="closeModal">Add</button>
+                                        <button type="button" class="btn mt-4 ml-auto" @click="closeModal">اضافه</button>
                                     </div>
                                 </form>
                             </div>

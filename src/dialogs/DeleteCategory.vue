@@ -1,6 +1,9 @@
 <template>
-    <button type="button" @click="openModal" class="font-medium text-red-600 dark:text-red-500">
+    <!-- <button type="button" @click="openModal" class="font-medium text-red-600 dark:text-red-500">
         <i class="fa-regular fa-trash-can fa-lg"></i>
+    </button> -->
+    <button type="button" @click="openModal" class="absolute top-2 right-2 mx-3 mt-3 z-10">
+        <i class="fa-solid fa-trash" style="color: #F31559"></i>
     </button>
 
     <TransitionRoot appear :show="isOpen" as="template">
@@ -29,11 +32,12 @@
                                                     stroke-width="2"
                                                     d="M10 11V6m0 8h.01M19 10a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                                             </svg>
-                                            <h3 class="mb-5 text-lg font-normal text-gray-500 dark:text-gray-400">هل أنت
-                                                متأكد أنك تريد حذف هذا السوق؟</h3>
+                                            <h3 class="mb-5 text-lg font-normal text-gray-500 dark:text-gray-400">Are you
+                                                بالتأكيد تريد الحذف
+                                                هذا المشرف؟</h3>
                                             <button type="button" @click="closeModal"
                                                 class="text-white bg-red-600 hover:bg-red-500 font-medium rounded-lg text-sm inline-flex items-center px-5 py-2.5 text-center mr-2">
-                                                نغم انا متأكد
+                                                نعم أنا متأكد
                                             </button>
                                             <button type="button" @click="closeModal"
                                                 class="text-gray-500 bg-white hover:bg-gray-100 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">لا

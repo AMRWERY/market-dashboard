@@ -1,6 +1,6 @@
 <template>
     <button type="button" @click="openModal" class="btn">
-        Add Payment
+        إضافة الدفع
     </button>
 
     <TransitionRoot appear :show="isOpen" as="template">
@@ -18,7 +18,7 @@
                         <DialogPanel class="panel">
                             <div class="flex items-start justify-between p-4 rounded-t dark:border-gray-600">
                                 <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
-                                    Add Payment
+                                    إضافة الدفع
                                 </h3>
                                 <button type="button" @click="closeModal"
                                     class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white">
@@ -35,8 +35,8 @@
                                         <div class="mt-5 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                                             <div class="sm:col-span-3">
                                                 <label for="going-from"
-                                                    class="block text-sm font-medium leading-6 text-gray-900">Payment Number
-                                                    Generator</label>
+                                                    class="block text-sm font-medium leading-6 text-gray-900">مولد رقم
+                                                    الدفع</label>
                                                 <div class="mt-2">
                                                     <input type="text" name="first-name" id="first-name"
                                                         autocomplete="given-name"
@@ -45,7 +45,7 @@
                                             </div>
                                             <div class="sm:col-span-3">
                                                 <label for="arrival-in"
-                                                    class="block text-sm font-medium leading-6 text-gray-900">Expiry</label>
+                                                    class="block text-sm font-medium leading-6 text-gray-900">انقضاء</label>
                                                 <div class="mt-2">
                                                     <input type="text" name="first-name" id="first-name"
                                                         autocomplete="given-name"
@@ -56,7 +56,7 @@
                                     </div>
 
                                     <div class="flex mt-4 items-center p-6 space-x-2 rounded-b dark:border-gray-600">
-                                        <button type="button" class="btn ml-auto" @click="closeModal">Add</button>
+                                        <button type="button" class="btn ml-auto" @click="closeModal">اضافه</button>
                                     </div>
                                 </form>
                             </div>
